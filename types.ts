@@ -55,6 +55,6 @@ cart = {
 let msg = 'defined message'
 msg = 'new string'
 
-window.addEventListener('click', (e) => { // e: Mouse Event infered
+window.addEventListener('click', (e) => { // e: MouseEvent infered
   console.log(e.target)
 })
