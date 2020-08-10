@@ -19,12 +19,12 @@ if (tlou.getSimilars) {
   tlou.getSimilars(tlou.title)
 }
 
-interface DLC extends Game {
+interface DLCx extends Game {
   originalGame: Game;
   newContent: string[];
 }
 
-const leftBehind: DLC = {
+const leftBehind: DLCx = {
   title: 'The last of US - Left Behind',
   description: '...',
   genre: 'Action',
