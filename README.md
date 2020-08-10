@@ -23,7 +23,7 @@ $ tsc index.ts --watch
 
 ### OR 
 
-- 1. Install the extension like [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) in your Editor. (e. g. VS Code Editor)
-- 2. Select all the code that you want and after that with the shortchut ```CTRL+ALT+N``` you run and automate last proccess.
+1. Install the extension like [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) in your Editor. (e. g. VS Code Editor)
+2. Select all the code that you want and after that with the shortchut ```CTRL+ALT+N``` you run and automate last proccess.
 
 <!-- tsc --init // generate tsconfig.json -->
