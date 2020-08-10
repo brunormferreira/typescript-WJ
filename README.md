@@ -1,13 +1,13 @@
 ### A way to run typescript in your computer:
 
-```Run the below commands and install the required packages globally:```
+Run the below commands and install the required packages globally:
 
 ```sh
 $ npm install -g ts-node
 $ npm install -g typescript
 ```
 
-```Now run the following command to execute a typescript file:```
+Now run the following command to execute a typescript file:
 
 ```sh
 $ ts-node typescript-file.ts
@@ -15,7 +15,7 @@ $ ts-node typescript-file.ts
 
 ### To Watch files
 
-```You can run in your terminal: ```
+You can run in your terminal:
 
 ```sh
 $ tsc index.ts --watch
