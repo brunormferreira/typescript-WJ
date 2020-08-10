@@ -39,7 +39,6 @@ function logger(): void {
 // null | undefined
 type Bla = string | undefined
 
-
 // never
 function error(): never {
   throw new Error('ERROR')
@@ -51,3 +50,11 @@ let cart: object
 cart = {
   key: 'bah!'
 }
+
+// Type Inference
+let msg = 'defined message'
+msg = 'new string'
+
+window.addEventListener('click', (e) => { // e: Mouse Event infered
+  console.log(e.target)
+})
